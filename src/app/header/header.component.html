@@ -1,0 +1,38 @@
+<nav *ngIf="nav.visible" class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/img/blacklogo.png" alt="logo" style="width: 180px;height: 60px"/>
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fas fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="category">Category</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="profile">My Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="terms">Terms & Conditions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" routerLink="login" (click)="nav.hide()"><input type="button" value="Sign in" class="acc-btn" ></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" routerLink="register"><input type="button" value="Create Account" class="acc-btn" ></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

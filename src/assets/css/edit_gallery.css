@@ -3,7 +3,8 @@ body{
 	padding: 0;
 }
 .gallery{
-    width: calc(100%-10px);
+    width: 100%;
+  padding-right: 10px;
     padding: 5px;
     display: grid;
     grid-auto-flow: dense;
@@ -15,11 +16,11 @@ body{
                    "1fr 1fr 1fr 1fr" 22vw
                    "1fr 1fr 1fr 1fr" 22vw
                    "1fr 1fr 1fr 1fr" 22vw;
-    grid-gap: 5px;               
+    grid-gap: 5px;
 }
 .gallery .box{
     position: relative;
-    background: #ccc; 
+    background: #ccc;
 }
 .gallery .box img{
     position: absolute;
@@ -30,7 +31,7 @@ body{
     transition: 0.2s;
 }
 /* .gallery .box img:hover > {
-    
+
 } */
 .gallery .box.a{
     grid-row: span 2;
@@ -38,8 +39,8 @@ body{
 .gallery .box.b,
 .gallery .box.f,
 .gallery .box.h,
-.gallery .box.j{ 
-    grid-column: span 2;    
+.gallery .box.j{
+    grid-column: span 2;
 }
 
 .btn{
@@ -95,7 +96,8 @@ body{
     }
 
     .gallery{
-        width: calc(100%-10px);
+        width: 100%;
+      padding-right: 10px;
         padding: 5px;
         display: grid;
         grid-auto-flow: dense;
@@ -115,13 +117,13 @@ body{
                        "1fr" 40vw
                        "1fr" 40vw
                        "1fr" 40vw;
-        grid-gap: 5px;               
+        grid-gap: 5px;
     }
 
     .gallery .box.b,
     .gallery .box.f,
     .gallery .box.h,
-    .gallery .box.j{ 
-        grid-column: span 0;    
+    .gallery .box.j{
+        grid-column: span 0;
     }
 }

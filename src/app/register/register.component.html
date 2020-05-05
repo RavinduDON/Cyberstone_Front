@@ -1,0 +1,129 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<form id="signup-form" class="wrapper">
+  <div class="form-div">
+    <h1 class="caption">Sign Up</h1>
+
+    <div class="row">
+      <div class="input-area">
+        <div class="block">
+          <label for="first-name">FIRST NAME<span class="required">*</span></label>
+          <div class="input-field">
+            <input type="text" placeholder="First Name" id="first-name" required>
+          </div>
+        </div>
+      </div>
+      <div class="input-area">
+        <div class="block">
+          <label for="district">DISTRICT</label>
+          <div class="input-field">
+            <select name="district" id="district" class="minimal" onchange="setTown()" required>
+              <option value="">Select District</option>
+              <option value="Ampara">Ampara</option>
+              <option value="Anuradhapura">Anuradhapura</option>
+              <option value="Badulla">Badulla</option>
+              <option value="Batticaloa">Batticaloa</option>
+              <option value="Colombo">Colombo</option>
+              <option value="Galle">Galle</option>
+              <option value="Gampaha">Gampaha</option>
+              <option value="Hambantota">Hambantota</option>
+              <option value="Jaffna">Jaffna</option>
+              <option value="Kalutara">Kalutara</option>
+              <option value="Kandy">Kandy</option>
+              <option value="Kegalle">Kegalle</option>
+              <option value="Kilinochchi">Kilinochchi</option>
+              <option value="Kurunegala">Kurunegala</option>
+              <option value="Mannar">Mannar</option>
+              <option value="Matale">Matale</option>
+              <option value="Matara">Matara</option>
+              <option value="Moneragala">Moneragala</option>
+              <option value="Mullaitivu">Mullaitivu</option>
+              <option value="Nuwara Eliya">Nuwara Eliya</option>
+              <option value="Polonnaruwa">Polonnaruwa</option>
+              <option value="Puttalam">Puttalam</option>
+              <option value="Ratnapura">Ratnapura</option>
+              <option value="Trincomalee">Trincomalee</option>
+              <option value="Vavuniya">Vavuniya</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-area">
+        <div class="block">
+          <label for="last-name">LAST NAME<span class="required">*</span></label>
+          <div class="input-field">
+            <input type="text" placeholder="Last Name" id="last-name" required>
+          </div>
+        </div>
+      </div>
+
+      <div class="input-area">
+        <div class="block">
+          <label for="town">TOWN</label>
+          <div class="input-field">
+            <select name="town" id="town" class="minimal" required>
+              <option value="">Select a district</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-area">
+        <div class="block">
+          <label for="password">PASSWORD<span class="required">*</span></label>
+          <div class="input-field">
+            <input type="password" placeholder="Password" id="password" required>
+            <i class="fa" id="passeye" onmouseover="ShowPass()" onmouseout="HidePass()">&#xf06e;</i>
+          </div>
+        </div>
+      </div>
+      <div class="input-area">
+        <div class="block">
+          <label for="confirm-password">CONFIRM PASSWORD<span class="required">*</span></label>
+          <div class="input-field">
+            <input type="password" placeholder="Confirm Password" id="confirm-password" required>
+            <i class="fa" id="cpasseye" onmouseover="ShowcPass()" onmouseout="HidecPass()">&#xf06e;</i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-area">
+        <div class="block">
+          <label for="email">EMAIL<span class="required">*</span></label>
+          <div class="input-field">
+            <input type="text" placeholder="Email" id="email" required>
+          </div>
+        </div>
+      </div>
+      <div class="input-area">
+        <div class="block">
+          <label for="user-name">Username<span class="required">*</span></label>
+          <div class="input-field">
+            <input type="text" placeholder="Username" id="user-name" required>
+          </div>
+        </div>
+      </div>
+      <div class="input-area">
+        <div class="block">
+          <label for="businesstype">CATEGORY</label>
+          <div class="input-field" id="businesstype">
+            <div class="checkboxes">
+              <input type="checkbox" name="photo-editing"> Graphic designing<br>
+              <input type="checkbox" name="video-editing"> Video editing<br>
+              <input type="checkbox" name="logo-designing"> 3D modeling and architecture<br>
+              <input type="checkbox" name="interior-design"> Paintings<br>
+              <input type="checkbox" name="print-designs"> Photography
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <input type="submit" value="Sign up" class="button button1">
+    </div>
+  </div>
+</form>
