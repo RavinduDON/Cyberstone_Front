@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {NavbarserviceService} from "../services/navbarservice.service";
+import {NavbarserviceService} from "../_servises/navbarservice.service";
 
 @Component({
   selector: 'app-login',
@@ -13,6 +13,6 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
     this.nav.hide();
   }
-  
+
 
 }

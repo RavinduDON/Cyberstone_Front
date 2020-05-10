@@ -16,7 +16,7 @@ import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
-import {NavbarserviceService} from "./services/navbarservice.service";
+import {NavbarserviceService} from "./_servises/navbarservice.service";
 
 @NgModule({
   declarations: [
