@@ -2,9 +2,9 @@
  *  N & LW Lawn Care - Landscaping Bootstrap4 HTML5 Responsive Template
  */
 
- 
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800');
- 
+
 body {
   padding-top: 54px;
   font-family: 'Poppins', sans-serif;
@@ -102,10 +102,11 @@ button.btn-secondary:hover{
 
 
 .cover-photo{
-	margin-top: 80px;
-	width: 100%; 
-	height: 350px;  
+	width: 100%;
+	height: 350px;
 	overflow: hidden;
+  background-color: white;
+  padding: 10px;
 }
 .cover-photo img{
 	object-fit: cover;
@@ -164,7 +165,7 @@ button.btn-secondary:hover{
 	color: white;
 	background-color: #3263AF;
 	border: solid 1px #3263AF;
-	
+
 	padding: 5px 10px;
 }
 .edit-profile-btn:hover{
@@ -173,9 +174,9 @@ button.btn-secondary:hover{
 }
 
 .gal-tabs{
-	width: max-content; 
-	margin-left: auto; 
-	margin-right: auto; 
+	width: max-content;
+	margin-left: auto;
+	margin-right: auto;
 	overflow: auto;
 }
 .comments{
@@ -282,14 +283,14 @@ textarea:focus{
 #respond {
 	margin-top: 40px;
   }
-  
+
   #respond input[type='text'],
-  #respond input[type='email'], 
+  #respond input[type='email'],
   #respond textarea {
 	margin-bottom: 10px;
 	display: block;
 	width: 100%;
-  
+
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -297,7 +298,7 @@ textarea:focus{
 	-ms-border-radius: 5px;
 	-khtml-border-radius: 5px;
 	border-radius: 5px;
-  
+
 	line-height: 1.4em;
   }
 
@@ -367,7 +368,7 @@ textarea:focus{
 .about-main ul li:before{
 	content: "\f0da";
 	font-family: 'Font Awesome 5 Free';
-	font-weight: 900;	
+	font-weight: 900;
 	position: absolute;
 	left: -15px;
 	top: 0px;
@@ -425,43 +426,43 @@ textarea:focus{
 	bottom: 0px;
 }
 
-.footer { 
-	width:100%; 
-	background-color:#263238; 
-	min-height:250px; 
+.footer {
+	width:100%;
+	background-color:#263238;
+	min-height:250px;
 	padding:10px 0px 25px 0px;
 	}
-.pt2 { 
+.pt2 {
 	padding-top:40px ;
 	margin-bottom:20px ;
 	color: #ffffff;
 	font-weight: 500;
 	}
-footer p { 
-	font-size:13px; 
-	color:#CCC; 
-	padding-bottom:0px; 
+footer p {
+	font-size:13px;
+	color:#CCC;
+	padding-bottom:0px;
 	margin-bottom:8px;
 	}
-.mb10 { 
+.mb10 {
 	padding-bottom:0px ;
 	}
-.footer_ul_amrc { 
-	margin:0px ; 
-	list-style-type:none ; 
-	font-size:14px; 
-	padding:0px 0px 10px 0px ; 
+.footer_ul_amrc {
+	margin:0px ;
+	list-style-type:none ;
+	font-size:14px;
+	padding:0px 0px 10px 0px ;
 	}
 .footer_ul_amrc li {
 	padding:0px 0px 5px 0px;
 	}
-.footer_ul_amrc li a{ 
+.footer_ul_amrc li a{
 	color:#cccccc;
 	font-size: 14px;
 	font-weight: 300;
 	}
-.footer_ul_amrc li a:hover{ 
-	color:#fff; 
+.footer_ul_amrc li a:hover{
+	color:#fff;
 	text-decoration:none;
 	}
 .footer_ul_amrc li .media-left{
@@ -480,31 +481,31 @@ footer p {
 	font-size: 14px;
 	font-weight: 400;
 }
-.fleft { 
+.fleft {
 	float:left;
 	}
-.padding-right { 
-	padding-right:10px; 
+.padding-right {
+	padding-right:10px;
 	}
 .footer_ul2_amrc {
-	margin:0px; 
-	list-style-type:none; 
+	margin:0px;
+	list-style-type:none;
 	padding:0px;
 	}
-.footer_ul2_amrc li p { 
-	display:table; 
+.footer_ul2_amrc li p {
+	display:table;
 	}
-.footer_ul2_amrc li a:hover { 
+.footer_ul2_amrc li a:hover {
 	text-decoration:none;
 	}
-.footer_ul2_amrc li i { 
+.footer_ul2_amrc li i {
 	margin-top:5px;
 	}
 .footer_ul2_amrc li a {
 	color: #4eae3a;
 }
-.bottom_border { 
-	border-bottom:1px solid #323f45; 
+.bottom_border {
+	border-bottom:1px solid #323f45;
 	padding-bottom:20px;
 	}
 .foote_bottom_ul_amrc {
@@ -516,11 +517,11 @@ footer p {
 	margin-bottom: 10px;
 	margin-left: auto;
 }
-.foote_bottom_ul_amrc li { 
+.foote_bottom_ul_amrc li {
 	display:inline;
 	}
 .foote_bottom_ul_amrc li a {
-	color:#ffffff; 
+	color:#ffffff;
 	margin:0 12px;
 	font-size: 16px;
 	font-weight: 300;
@@ -537,31 +538,31 @@ footer p {
 	color: #ffffff;
 	text-decoration: none;
 }
-.social_footer_ul { 
-	display:table; 
-	margin:15px auto 0 auto; 
+.social_footer_ul {
+	display:table;
+	margin:15px auto 0 auto;
 	list-style-type:none;
-	padding: 0;	
+	padding: 0;
 	}
-.social_footer_ul li { 
-	padding-left:20px; 
-	padding-top:10px; 
-	float:left; 
+.social_footer_ul li {
+	padding-left:20px;
+	padding-top:10px;
+	float:left;
 	}
-.social_footer_ul li a { 
-	color:#CCC; 
-	border:2px solid #CCC; 
+.social_footer_ul li a {
+	color:#CCC;
+	border:2px solid #CCC;
 	padding:8px;
 	border-radius:50%;
 	}
-.social_footer_ul li i {  
-	width:20px; 
-	height:20px; 
+.social_footer_ul li i {
+	width:20px;
+	height:20px;
 	text-align:center;
 	}
 .social_footer_ul li a:hover {
-	color: #4eae3a; 
-	border:2px solid #4eae3a; 
+	color: #4eae3a;
+	border:2px solid #4eae3a;
 }
 
 /* ---- All Pages CSS ---- */
@@ -612,7 +613,7 @@ footer p {
 }
 .team-members-box .card{
 	box-shadow: 3px 5px 15px rgba(0,0,0, .15);
-	border: none;	
+	border: none;
 }
 .team-members-box .card .card-footer{
 	background: #4eae3a;
@@ -664,7 +665,7 @@ footer p {
 	color: #4e3914;
 }
 .related-projects{
-	padding: 30px 0px; 
+	padding: 30px 0px;
 }
 .related-projects h3{
 	font-weight: 600;
@@ -751,7 +752,7 @@ footer p {
     position: absolute;
     content: "\f0dd";
 	font-family: 'Font Awesome 5 Free';
-	font-weight: 900;	
+	font-weight: 900;
     right: 10px;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -832,11 +833,17 @@ footer p {
 }
 
 .cover-edit-btn{
-	position: absolute;
-	transform: translate(-50%, -50%);
-	top: 41.5%;
-	left: 50%;
-	width: 100%;
+	/*position: absolute;*/
+	/*transform: translate(-50%, -50%);*/
+	/*top: 60%;*/
+	/*left: 50%;*/
+	/*width: 100%;*/
+  position: relative;
+  display: inline-table;
+  height: max-content;
+  width: max-content;
+  margin-left: 800px;
+  margin-top: 100px;
 }
 .cover-edit-btn .pic-edit-btn{
 	position: relative;
@@ -954,7 +961,9 @@ footer p {
 
 	.comment-section{width: 80%;}
 	.cover-photo{
-		height: auto; 
+		height: auto;
+    background-color: white;
+    padding: 10px;
 	}
 	.cusrow{
 		transform: translateY(-60%);
